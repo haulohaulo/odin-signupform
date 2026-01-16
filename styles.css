@@ -23,16 +23,22 @@ img {
 .right-section {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    
     gap: 30px;
     margin: auto;
     
 }
 
+.card {
+    position: absolute;
+    opacity: 30;
+    width: 100vw;
+    height: 1rem;
+    box-shadow: 12px 12px grey;
+}
+
 .form-details {
     display: flex;
-    justify-content: center;
+    
     margin: 1rem;
     gap: 1rem;
 }
