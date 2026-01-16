@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    
+    
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    margin-right: auto;
+    
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    gap: 30px;
+    width: 100vw;
+}
+
+
+.form-details {
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+}
