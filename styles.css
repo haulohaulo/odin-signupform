@@ -25,7 +25,6 @@ body {
     padding: 0;
 
     display: flex;
-
     background-color: #ebebeb;
     font-size: 18px;
     
@@ -33,20 +32,33 @@ body {
     
 }
 
-
+.left-section {
+    position: relative;
+    width: 736px;  /*Original Image width*/
+}
 
 .anime-background {
-    position: relative;
-    height: 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
+
+
+#black-card {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, .5);
+    top: 20%;
+}
+
 
 .logo {
     position: absolute;
-    height: 250px;
-    width: auto;
-    background-color: rgba(0, 0, 0, .5)
+    height: 200px;
+    left: 38%;
+    top: 23%;
 }
-
 
 .right-section {
     display: flex;
@@ -85,7 +97,7 @@ body {
 }
 
 input {
-    width: 25rem;
+    width: 17rem;
 }
 
 span {
