@@ -6,7 +6,7 @@ body {
 
     display: flex;
     
-    gap: 20px;
+    
     
     
 }
@@ -33,12 +33,20 @@ img {
 }
 
 
+.above-form, .form, .below-form {
+    margin-left: 20px;
+}
+
 
 
 .form-details {
     display: flex;
-    margin: 1rem;
+    margin: 15px 0;
     gap: 1rem;
+}
+
+input {
+    width: 25rem;
 }
 
 span {
