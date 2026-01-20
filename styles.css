@@ -5,6 +5,8 @@ body {
     padding: 0;
 
     display: flex;
+
+    background-color: #ebebeb;
     
     
     
@@ -28,21 +30,26 @@ img {
     flex: 1;
     gap: 30px;
     
-    background-color: pink;
+    
     
 }
 
 
-.above-form, .form, .below-form {
+.above-form, legend, .form > div, .below-form {
     margin-left: 20px;
 }
 
+.form {
+    background-color: white;
+    padding: 30px 0;
+}
 
 
 .form-details {
     display: flex;
     margin: 15px 0;
-    gap: 1rem;
+    gap: 20px;
+    
 }
 
 input {
