@@ -34,7 +34,8 @@ body {
 
 .left-section {
     position: relative;
-    width: 736px;  /*Original Image width*/
+    min-width: 736px;  /*Original Image width*/
+    
 }
 
 .anime-background {
