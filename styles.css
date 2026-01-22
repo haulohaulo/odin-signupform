@@ -99,9 +99,38 @@ body {
 
 input {
     width: 17rem;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 span {
     display: flex;
     flex-direction: column;
+}
+
+input:focus {
+    outline: 1px solid #3bb4ff;
+    box-shadow: 0 5px 5px gray;
+}
+
+input:invalid {
+    outline: 1px solid red;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: sans-serif, "Jost", 'Times New Roman';
+    background-color: #42f595;
+    border: .5px solid;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #6bffb0;
+}
+
+button:active {
+    background-color: #42f595;
 }
